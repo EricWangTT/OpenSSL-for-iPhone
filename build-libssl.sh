@@ -221,7 +221,7 @@ case $i in
     CONFIG_ENABLE_EC_NISTP_64_GCC_128="true"
     ;;
   --disable-bitcode)
-    CONFIG_DISABLE_BITCODE="true"
+    CONFIG_DISABLE_BITCODE="false"
     ;;
   -h|--help)
     echo_help
